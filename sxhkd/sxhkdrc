@@ -1,0 +1,32 @@
+
+#Application shortcuts
+alt+F3
+	st lf
+alt+F2
+	firefox	
+alt+Return
+	st
+alt+shift+F3
+	passmenu --type
+alt+ctrl+n
+	networkmanager_dmenu
+alt+ctrl+m
+	pavucontrol
+XF86AudioMute
+	pactl set-sink-mute 0 toggle
+XF86AudioPlay
+	mpc toggle
+XF86AudioPrev
+	mpc prev
+XF86AudioNext
+	mpc next
+alt+shift+m
+	st neomutt
+XF86MonBrightnessUp
+	xbacklight -inc 5
+XF86MonBrightnessDown
+	xbacklight -dec 5
+
+alt+ctrl+r
+	st newsboat
+	
