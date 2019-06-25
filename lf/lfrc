@@ -38,6 +38,9 @@ map gd cd /home/david/Downloads
 map gp cd /home/david/Pictures
 map gD cd /home/david/Documents
 map gv cd /home/david/Videos
+map gu cd /home/david/USB1
+map gU cd /home/david/USB2
+
 # use enter for shell commands
 map <enter> shell
 
