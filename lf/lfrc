@@ -37,6 +37,7 @@ map gR cd /
 map gd cd /home/david/Downloads
 map gp cd /home/david/Pictures
 map gD cd /home/david/Documents
+map gv cd /home/david/Videos
 # use enter for shell commands
 map <enter> shell
 
