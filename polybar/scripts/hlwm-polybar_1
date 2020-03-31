@@ -1,9 +1,0 @@
-#!/bin/sh
-#
-
-TAGSTAT=$(herbstclient tag_status 1)
-COLORSELECTED="\%\{F#fa5\}$(echo "$TAGSTAT" | tr '\t' '\n' | grep '[#+]')\%\{F-\}"
-COLOROTHER="%{F#0c0}$(echo "$TAGSTAT" | tr '\t' '\n' | grep '[-%]')%{F-}"
-#echo $COLOROTHER $COLORSELECTED
-RES=$(echo $TAGSTAT | tr '\t' '\n'| grep -o "[#+:\!-\%][1-9]"| sed "s/^[-%]\S/$COLOROTHER/g" | sed "s/^[#+]\S/$COLORSELECTED/g" | tr '\n' '\t')
-echo $RES
