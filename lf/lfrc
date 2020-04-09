@@ -161,3 +161,4 @@ cmd paste %{{
     fi
     lf -remote 'send load'
     lf -remote 'send clear'
+}}
